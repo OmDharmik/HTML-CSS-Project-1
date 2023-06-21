@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #fff0f0;
+    font-family: 'Caveat', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(152, 152, 152);;
+}
+
+#navbar{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo{
+    margin: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: darksalmon;
+}
+
+#services{
+    display: flex;
+    align-items: center;
+}
+
+#services ul{
+    font-weight: bold;
+    list-style: none;
+    display: inline-flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 5px;
+}
+
+#sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#sign h3:hover{
+    color: darksalmon;
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.green{
+    height: 50px;
+    width: 130px;
+    color: white;
+    font-weight: bold   ;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(7, 56, 12);
+}
+
+
+#main{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main span{
+    color: rgb(236, 177, 14);
+}
+
+#left{
+    max-width: 800px;
+}
+
+h2,span {
+    font-size: 5rem;
+    margin-bottom: 0px;
+}
+
+#main button{
+    margin: 10px;
+}
+
+p{
+    font-weight: bold;
+}
+
+#rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#trust{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#company{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
